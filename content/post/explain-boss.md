@@ -5,6 +5,7 @@ linktitle: Explaining Ontologies to Your Boss
 title: Explaining Ontologies to Your Boss
 tags: [ "ontology", "reasoning", "interoperability", "vocabulary", "simple ontologies", ] 
 weight: 30
+draft: false
 ---
 
 ![Example image](/img/explain-boss-img.png)
