@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>  | Explaining Ontologies to Your Boss</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="css/blog.css" />
+    </head>
+<body>
+
+
+
+    
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <img src=img/shl-icon.png alt="SHL" width="70" height="70" style="padding:10px">
+            <a class="navbar-item" href="">Home</a>
+        </div>
+    </nav>
+    
+
+    
+    <section class="hero is-info is-medium">
+        <div class="hero-body" style="background-image: url(img/header.png);">
+            <div class="container has-text-centered">
+                <br>
+                <h1 class="title is-size-1">
+                    
+                        Explaining Ontologies to Your Boss
+                    
+                </h1>
+                
+            </div>
+        </div>
+    </section>
+
+
+<div class="container">
+    <div class="section">
+    
+
+<div class="columns">
+    <div class="column is-9">
+        <div class="tile is-child box">
+            <div class="content">
+                
+
+<p><img src="/img/explain-boss-img.png" alt="Example image" /></p>
+
+<p><br/>
+If you are a developer, software architect, or have worked in any data-focused organisation, you might have come across ontologies before. You may have heard about companies or research institutions who have leveraged ontologies to pull their data into a new age of “machine-readability”. If so, you could have tried to explain the benefits of this technology with your boss, only to be met with a blank face.</p>
+
+<p>In fact, ontologies (in the context of computer science) appear to be notorious for their steep learning curve and high barrier to entry. In fact, it is easier to “sell” cutting-edge AI technology where information is scattered far and wide across the internet, then it is to sell ontologies. In my opinion, the reason for this has nothing to do with the technology itself. It comes down to a very simple and easily resolvable fact about the field of ontologies. Information about ontologies is incredibly difficult to decipher.</p>
+
+<p>On the day you explained ontologies to your boss, it’s probable they liked what they were hearing. After your conversation, their mind was buzzing with ideas and opportunities about the technology. So, they went and typed “Ontology” into Google. When they clicked “Search” however, they were fronted with a tidal wave of different definitions and interpretations. Many of these are grounded in philosophy rather than computer science or information technology. At this point, you can’t blame your boss for not understanding how an ontology will fit into your business and it’s not surprising that this idea is abandoned.</p>
+
+<p>This blog will be the first of (hopefully) many attempts to unveil some of the mysteries that hide ontologies away from outside onlookers. As someone who has worked in a research institution, it is my pleasure to open this mystifying field up and make it more accessible for people to use. This blog describes the three core benefits of ontologies. These benefits are <strong>increased interoperability</strong>, <strong>automatic reasoning</strong>, and a <strong>shared vocabulary</strong>. These three points will help you to explain to your boss why ontologies are important for your business.</p>
+
+<h3 id="1-a-shared-vocabulary">1) A Shared Vocabulary</h3>
+
+<p>Debates about what is meant by the an “ontology” in computer science continue well into 2020. The point that seems to be consistent across different definitions and interpretations is that an ontology should describe a shared vocabulary for a domain context. This means that the concepts (or “classes”) and the meaning of those concepts represented in an ontology, are agreed upon by domain experts. For example, an ontology may contain the concept of a “machine” and the meaning of the word “machine” is agreed and unambiguous. While this is one of the most solid and least debated features of ontologies, it is often a point that is overlooked in early ontology tutorials.</p>
+
+<p>The value of ontologies representing a shared vocabulary is that it begins to break down “silos” both between software teams, within organizations and between organizations. It also means that if you would like to create an ontology for your business or context, you likely do not have to start from scratch. There are often existing ontologies that have been created by standards organizations or research groups that you can leverage. One such research group is the Industrial Ontology Foundry ( <a href="https://www.industrialontologies.org/">https://www.industrialontologies.org/</a> ) who are currently working on building an ontology as a shared vocabulary that can be used across industrial organizations such as mining, manufacturing or aviation. Another benefit of ontologies as a shared vocabulary is that it increases interoperability between the software applications that conform to this vocabulary. This is further described in point (2).</p>
+
+<h3 id="2-increased-interoperability">2) Increased Interoperability</h3>
+
+<p>For software engineers and information architects, increased interoperability is, in my opinion, the easiest selling point for ontologies. Ontology languages such as OWL (the Web Ontology Language) provide means to assert facts (or “axioms”) about each of the concepts (or “classes”) in your shared vocabulary. For example, an ontology engineer might describe a “parent” as something that has a “child”. In that case, you can assert an axiom that describes this relationship. This means that whenever a software application connects (or “conforms”) to an ontology, this relationship between the concepts of “parent” and “child” is explicit and cannot be mis-interpreted by the application. Therefore, when new applications are built, perhaps by different software teams, these concepts remain consistent across the different applications.</p>
+
+<p>The value of this from your boss’s perspective is that increased interoperability decreases the amount of time and money spent debating how applications should communicate with each other. An obscene amount of time in software development projects is spent trying to “connect” new applications into an existing application landscape. Having an ontology to represent concepts in each application in a consistent way makes this process monumentally more efficient.</p>
+
+<h3 id="3-automatic-reasoning">3) Automatic Reasoning</h3>
+
+<p>If your boss is not yet convinced why ontologies are useful for your organization, you can now start talking about automatic reasoning. This point is by far the most complex features of an ontology and the most difficult to explain quickly, but I am going to give it my best shot.</p>
+
+<p>Automatic reasoning is the ability for reasoners, that can be run over a defined ontology, to make interpretations (or “inferences”) about the information represented in the ontology. An example is if you have the concept of a “parent” in your ontology, and you define that a “parent of a parent” is also a “grandparent”. Therefore, if you have a piece of data (or “individual”) that is a “parent of a parent”, the reasoner could infer that the piece of data is also a “grandparent”. After this inference has been made, you can query for all “grandparents” in your system and retrieve the appropriate information. This is just one of many examples of the power of automatic reasoning and it is worth diving into some more complex examples before trying to build your own.</p>
+
+<p>I would like to stress that you must be careful when talking about automatic reasoning. When you’re in a meeting, make sure that you understand the capabilities of the ontology language that you are using before making “magical” reasoning promises that you cannot keep. For ontologies, there is a tradeoff between expressivity (and in-turn reasoning capability) and performance. This is important to keep in mind when explaining ontologies to your boss.</p>
+
+<p>The value of automatic reasoning for your boss, is that it makes your data “smarter” and you can ask better questions of your data. Instead of requiring knowledge engineers to write complex queries every time you need a piece of information, simpler queries can be written. For example, without knowing how the data is represented in the system, a developer or a subject matter expert can ask the system to return all “grandparents” in a single, simple query.</p>
+
+<p><br/></p>
+
+<p>I hope this blog was useful for you in your mission to start using ontologies in your organization. If you have questions, comments, or ideas about what I should write on next, please reach out to me at <strong>caitlin.woods@research.uwa.edu.au</strong></p>
+
+<p><br/></p>
+
+<p>Written by <strong>Caitlin Woods</strong></p>
+
+<p>Research Assistant at <strong>The UWA System Health Lab</strong></p>
+
+            </div>
+        </div>
+    </div>
+    <div class="column is-3">
+        <div class="card">
+    <div class="card-content">
+        <h1 class="title is-5">Tags</h1>
+        <div class="tags">
+        
+            <span class="tag"><a href="tags/interoperability">interoperability</a></span>
+        
+            <span class="tag"><a href="tags/ontology">ontology</a></span>
+        
+            <span class="tag"><a href="tags/reasoning">reasoning</a></span>
+        
+            <span class="tag"><a href="tags/simple-ontologies">simple-ontologies</a></span>
+        
+            <span class="tag"><a href="tags/vocabulary">vocabulary</a></span>
+        
+        </div>          
+    </div>
+</div><br>
+        <div class="card">
+    <div class="card-content">
+        <h1 class="title is-5">Recent posts</h1>
+        
+            <h1><a href="/post/explain-boss/">Explaining Ontologies to Your Boss</a></h1>
+            <time class="has-text-grey-light is-size-7">23 June 2020</time>
+        
+    </div>
+</div>
+    <br>
+                
+
+
+    
+<br>
+        <div class="card">
+    <div class="card-content">
+        <h1 class="title is-5">Archives</h1>
+        
+            <a href="archives/2020">2020</a> (1)<br>
+        
+    </div>
+</div>
+
+    </div>
+</div>
+
+
+    </div>
+</div>
+
+<footer class="footer has-background-grey-darker has-text-white">
+    <div class="content has-text-centered">
+        <p>
+            <br><br>
+            Copyright &copy;  2020 - Theme by <a href="https://jeffprod.com" class="mysocial">JeffProd.com</a>
+        </p>
+    </div>
+</footer>
+
+<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+</body>
+</html>
