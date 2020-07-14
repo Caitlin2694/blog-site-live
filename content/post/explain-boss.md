@@ -3,7 +3,6 @@ date: 2020-06-23
 archives: "2020"
 linktitle: Explaining Ontologies to Your Boss
 title: Explaining Ontologies to Your Boss
-tags: [ "ontology", "reasoning", "interoperability", "vocabulary", "simple ontologies", ] 
 weight: 30
 draft: false
 ---
