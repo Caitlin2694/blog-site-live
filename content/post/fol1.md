@@ -1,8 +1,8 @@
 ---
 date: 2020-08-20
 archives: "2020"
-linktitle: Representing Ontologies using First-Order Logic: Lessons Learned
-title: Representing Ontologies using First-Order Logic: Lessons Learned
+linktitle: Representing Ontologies using First-Order Logic - Lessons Learned
+title: Representing Ontologies using First-Order Logic - Lessons Learned
 tags: [ "ontology", "first-order logic", ] 
 weight: 30
 draft: false
