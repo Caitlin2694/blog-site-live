@@ -11,8 +11,7 @@ markup: mmark
 
 # Representing Ontologies using First-Order Logic: Lessons Learned
 
-Creating an ontology for your data has extraordinary benefits (see “how to explain ontologies to your boss” for an explanation).  When constructing a new ontology, it’s a good idea to do some preliminary work before constructing your model in an 
-Ontology Development Environment (ODE) such as Protégé.
+Creating an ontology for your data has extraordinary benefits (see [here](/post/explain-boss) for an explanation).  When constructing a new ontology, it’s a good idea to do some preliminary work before constructing your model in an Ontology Development Environment (ODE) such as Protégé.
 
 This preliminary work is as follows:
 1. Identify the generic terms (or “concepts”) needed in your ontology. 
