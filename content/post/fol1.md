@@ -33,33 +33,31 @@ Since our research group deals primarily in industrial maintenance, the examples
 
 SME definitions look like the definitions you might find in a dictionary, or the glossary of a textbook. For example:
 
-{.table}
-| Term | SME definition   | 
-| :------------- | ----------: | 
-|  Machine identifier | A unique identifier or serial number of a machine or asset. | 
-| Functional location  | Describes a physical location where a maintenance task is actioned. |
-
+Term | SME definition    
+------------- | ---------- 
+  Machine identifier | A unique identifier or serial number of a machine or asset. 
+ Functional location  | Describes a physical location where a maintenance task is actioned. 
 
 ### Examples of FOL definitions
 
-| Term | FOL definition   | 
-| :------------- | ----------: | 
-| Machine identifier | *instanceOf(x,MachineIdentifier)≡ instanceOf(x,DescriptiveContentEntity∧∃y(instanceOf(y,Machine)∧denotes(x,y))∧∀z(denotes(x,z)→z=y)*| 
-| Functional location  | *instanceOf(x,FunctionalLocation)≡instanceOf(x,DescriptiveContentEntity)∧∃y,z(instanceOf(y,MaintenanceTask)∧instanceOf(z,SpatialRegion)∧locationOf(z,y)∧denotes(x,z))* |
+ Term | FOL definition   
+ :------------- | ----------: 
+ Machine identifier | *instanceOf(x,MachineIdentifier)≡ instanceOf(x,DescriptiveContentEntity∧ ∃y(instanceOf(y,Machine)∧denotes(x,y))∧∀z(denotes(x,z)→z=y)*
+ Functional location  | *instanceOf(x,FunctionalLocation)≡instanceOf(x,DescriptiveContentEntity)∧ ∃y,z(instanceOf(y,MaintenanceTask)∧instanceOf(z,SpatialRegion)∧locationOf(z,y) ∧denotes(x,z))*
 
 Although FOL definitions may appear foreign and difficult to understand, learning to understand them only requires (1)
  understanding what the following set of symbols mean, and (2) understanding how to match things denoted by x, y, z (etc.)
   to their descriptions. If you’re not familiar with FOL, keep an eye on future blogs for a beginner’s tutorial.
 
 
-| Symbol | Meaning | 
-| :------------- | ----------: | 
-| ∧ | ‘and’ |
-| ∨ | ‘or’ |
-| →	 |‘implies’ |
-| ↔ | ‘if and only if’ |
-| ¬ | ‘not’ |
-| ≡	| ‘equivalent to’ |
+ Symbol | Meaning |
+ :------------- | ----------: 
+ ∧ | ‘and’ 
+ ∨ | ‘or’ 
+ →	 |‘implies’ 
+ ↔ | ‘if and only if’ 
+ ¬ | ‘not’ 
+ ≡	| ‘equivalent to’ 
 
 When matching things denoted by x, y, z (etc.) to their descriptions, a general rule of thumb is to apply what is 
 included in the brackets to either side of the description, where the first entry in the bracket goes on the left 
@@ -76,8 +74,7 @@ That is, that all relevant SME definitions are consistent with the FOL definitio
   Because a FOL definition is built using the symbols ∧, ∨, →, ↔, ¬, and ≡, its direct English translation will only have 
   ‘and’, ‘or’, ‘implies’, ‘if and only if’, ‘not’, and ‘equivalent to’ as the words connecting terms and phrases. 
   If your definition is not translated correctly into FOL, it is likely that mistakes will be made in the ontology’s
-   implementation i.e. following its input into a computer. These mistakes are likely to cause reasoners to make incorrect
-    inferences about your concepts. If this is the case, you will end up with an ontology that does not correctly reflect the real world.
+   implementation i.e. following its input into a computer. These mistakes are likely to cause reasoners to make incorrect inferences about your concepts. If this is the case, you will end up with an ontology that does not correctly reflect the real world.
 
 ### Translation as a collaborative process
 
@@ -102,17 +99,16 @@ different expertise is that they are likely to counteract different mistakes. In
  matter expert provided a SME, the computer scientist/ontology engineer and mathematician/logician tended to pick up 
  on different shortcomings of proposed FOL definitions. The table below indicates who tended to pick up what.
  
-| Computer scientist/ontology engineer | Mathematician/logician | 
-| :------------- | :---------- | 
-|  (1)	Failure to integrate a FOL definition with existing ontologies, like the Relations Ontology (RO), that already includes relations like inheresIn, <br> (2) Inconsistencies and/or overlap between FOL definitions for different terms |  (1) Incorrect positioning of brackets, <br> (2) Using variable names inconsistently, <br> (3)Incorrect order of variables within a relationship i.e. locationOf(x,y) vs locationOf(y,x), <br> (4) Incorrect application of quantifiers |
+ Computer scientist/ontology engineer | Mathematician/logician  
+ :------------- | :---------- |
+  (1)	Failure to integrate a FOL definition with existing ontologies, like the Relations Ontology (RO), that already includes relations like inheresIn, <br> (2) Inconsistencies and/or overlap between FOL definitions for different terms |  (1) Incorrect positioning of brackets, <br> (2) Using variable names inconsistently, <br> (3)Incorrect order of variables within a relationship i.e. locationOf(x,y) vs locationOf(y,x), <br> (4) Incorrect application of quantifiers 
 
 
 Once our computer scientist and mathematician agreed on a FOL definition, the final step was always to take it back to 
 the subject matter expert and check that it was suitable. As mentioned above, the way to do this is to make sure that
  the direct English translation is consistent with all appropriate SME definitions, and restrictive enough that it
   does not encompass inappropriate SME definitions. An example of a mistake that might be picked up here is definitions
-   where an ‘and’ should be an ‘or’.  Keep an eye out for future blogs where instructions on how to avoid these common
-    translation mistakes will be given.
+   where an ‘and’ should be an ‘or’.  Keep an eye out for future blogs where instructions on how to avoid these common translation mistakes will be given.
 
 ### Lessons learned
 
