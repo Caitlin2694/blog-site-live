@@ -33,7 +33,7 @@ Since our research group deals primarily in industrial maintenance, the examples
 
 SME definitions look like the definitions you might find in a dictionary, or the glossary of a textbook. For example:
 
-
+{.table}
 | Term | SME definition   | 
 | :------------- | ----------: | 
 |  Machine identifier | A unique identifier or serial number of a machine or asset. | 
