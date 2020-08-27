@@ -6,6 +6,7 @@ title: Representing Ontologies using First-Order Logic - Lessons Learned
 tags: [ "ontology", "first-order logic", ] 
 weight: 30
 draft: false
+markup: mmark
 ---
 
 # Representing Ontologies using First-Order Logic: Lessons Learned
@@ -32,10 +33,12 @@ Since our research group deals primarily in industrial maintenance, the examples
 
 SME definitions look like the definitions you might find in a dictionary, or the glossary of a textbook. For example:
 
+
 | Term | SME definition   | 
 | :------------- | ----------: | 
 |  Machine identifier | A unique identifier or serial number of a machine or asset. | 
 | Functional location  | Describes a physical location where a maintenance task is actioned. |
+
 
 ### Examples of FOL definitions
 
