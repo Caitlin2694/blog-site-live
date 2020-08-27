@@ -9,7 +9,7 @@ draft: false
 markup: mmark
 ---
 
-# Representing Ontologies using First-Order Logic: Lessons Learned
+# Representing Ontologies using First-Order Logic - Lessons Learned
 
 Creating an ontology for your data has extraordinary benefits (see [here](/post/explain-boss) for an explanation).  When constructing a new ontology, it’s a good idea to do some preliminary work before constructing your model in an Ontology Development Environment (ODE) such as Protégé.
 
