@@ -41,8 +41,8 @@ Term | SME definition
 
  Term | FOL definition   
  :------------- | ----------: 
- Machine identifier | *instanceOf(x,MachineIdentifier)≡ instanceOf(x,DescriptiveContentEntity∧ ∃y(instanceOf(y,Machine)∧denotes(x,y))∧∀z(denotes(x,z)→z=y)*
- Functional location  | *instanceOf(x,FunctionalLocation)≡instanceOf(x,DescriptiveContentEntity)∧ ∃y,z(instanceOf(y,MaintenanceTask)∧instanceOf(z,SpatialRegion)∧locationOf(z,y) ∧denotes(x,z))*
+ Machine identifier | *instanceOf(x,MachineIdentifier) ≡  instanceOf(x,DescriptiveContentEntity ∧ ∃y(instanceOf(y,Machine) ∧ denotes(x,y)) ∧ ∀z(denotes(x,z)→z=y)*
+ Functional location  | *instanceOf(x,FunctionalLocation) ≡ instanceOf(x,DescriptiveContentEntity) ∧ ∃y,z(instanceOf(y,MaintenanceTask) ∧ instanceOf(z,SpatialRegion) ∧ locationOf(z,y) ∧ denotes(x,z))*
 
 Although FOL definitions may appear foreign and difficult to understand, learning to understand them only requires (1)
  understanding what the following set of symbols mean, and (2) understanding how to match things denoted by x, y, z (etc.)
