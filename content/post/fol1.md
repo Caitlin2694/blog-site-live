@@ -15,8 +15,8 @@ Creating an ontology for your data has extraordinary benefits (see [here](/post/
 
 This preliminary work is as follows:
 1. Identify the generic terms (or “concepts”) needed in your ontology. 
-2. Discuss these terms and their definitions with a subject matter experts (SME).
-3. Translate SME definition (written in natural language) to formal definitions (written in First-order logic).
+2. Discuss these terms and their definitions with a subject matter expert(s) (SME).
+3. Translate SME definitions (written in natural language) to formal definitions (written in First-order logic).
 
 The reason that natural language definitions (or “SME definitions”) are translated into formal definitions (or “FOL definitions”) is twofold. 
 Firstly, it transforms the information into a format that the computer can understand, in-line with how the ontology will eventually be 
@@ -41,7 +41,7 @@ Term | SME definition
 
  Term | FOL definition   
  :------------- | ----------: 
- Machine identifier | *instanceOf(x,MachineIdentifier) ≡  instanceOf(x,DescriptiveContentEntity ∧ ∃y(instanceOf(y,Machine) ∧ denotes(x,y)) ∧ ∀z(denotes(x,z)→z=y)*
+ Machine identifier | *instanceOf(x,MachineIdentifier) ≡  instanceOf(x,DescriptiveContentEntity) ∧ ∃y(instanceOf(y,Machine) ∧ denotes(x,y)) ∧ ∀z(denotes(x,z)→z=y)*
  Functional location  | *instanceOf(x,FunctionalLocation) ≡ instanceOf(x,DescriptiveContentEntity) ∧ ∃y,z(instanceOf(y,MaintenanceTask) ∧ instanceOf(z,SpatialRegion) ∧ locationOf(z,y) ∧ denotes(x,z))*
 
 Although FOL definitions may appear foreign and difficult to understand, learning to understand them only requires (1)
