@@ -20,7 +20,7 @@ This preliminary work is as follows:
 
 The reason that natural language definitions (or “SME definitions”) are translated into formal definitions (or “FOL definitions”) is twofold. 
 Firstly, it transforms the information into a format that the computer can understand, in-line with how the ontology will eventually be 
-implemented (using RDF/OWL/CCL). Secondly, FOL definitions are more rigorous than SME definitions. 
+implemented (using RDF/OWL). Secondly, FOL definitions are more rigorous than SME definitions. 
 These FOL definitions will help you to identify gaps in your SME definitions. 
 
 This blog will share some of our team’s learnings from performing this translation in our work. 
@@ -41,8 +41,8 @@ Term | SME definition
 
  Term | FOL definition   
  :------------- | ----------: 
- Machine identifier | *instanceOf(x,MachineIdentifier) ≡  instanceOf(x,DescriptiveContentEntity) ∧ ∃y(instanceOf(y,Machine) ∧ denotes(x,y)) ∧ ∀z(denotes(x,z)→z=y)*
- Functional location  | *instanceOf(x,FunctionalLocation) ≡ instanceOf(x,DescriptiveContentEntity) ∧ ∃y,z(instanceOf(y,MaintenanceTask) ∧ instanceOf(z,SpatialRegion) ∧ locationOf(z,y) ∧ denotes(x,z))*
+ Machine identifier | *MachineIdentifier(x) ≡  DescriptiveContentEntity(x) ∧ ∃y(Machine(y) ∧ denotes(x,y)) ∧ ∀z(denotes(x,z)→z=y)*
+ Functional location  | *FunctionalLocation(x) ≡ DescriptiveContentEntity(x) ∧ ∃y,z(MaintenanceTask(y) ∧ SpatialRegion(z) ∧ locationOf(z,y) ∧ denotes(x,z))*
 
 Although FOL definitions may appear foreign and difficult to understand, learning to understand them only requires (1)
  understanding what the following set of symbols mean, and (2) understanding how to match things denoted by x, y, z (etc.)
