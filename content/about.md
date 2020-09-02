@@ -9,25 +9,21 @@ More information of the UWA System Health Lab can be found [here](https://system
 
 <br>
 
-<article class="media">
-  <figure class="media-left">
+<article class="media" >
+  <figure class="media-left is-hidden-mobile">
     <figure class="image is-128x128">
         <img class="is-rounded" src="/img/authors/caitlin.png">
     </figure>
   </figure>
   <div class="media-content">
-    <div class="content">
-      <p>
         <strong>Caitlin Woods</strong>
         <br>
         Caitlin Woods is a PhD student at UWA and completed a Master of Professional Engineering (Software) in 2018. Caitlin's research is about designing user interfaces for complex work environments (mining, manufacturing, etc). An important part of her research is to ensure that organisations manage their data effectively. This work, as well as Caitlin's ongoing involvement in the UWA System Health Lab and Industrial Ontologies Foundry, has sparked her passion for ontologies. Caitlin spends much of her time seeking to make ontologies more accessible for engineers, managers and others in the technology scene.
-      </p>
-    </div>
   </div>
 </article>
 
 <article class="media">
-  <figure class="media-left">
+  <figure class="media-left is-hidden-mobile">
     <figure class="image is-128x128">
         <img class="is-rounded" src="/img/authors/emily.jpg">
     </figure>
@@ -44,7 +40,7 @@ More information of the UWA System Health Lab can be found [here](https://system
 </article>
 
 <article class="media">
-  <figure class="media-left">
+  <figure class="media-left is-hidden-mobile">
     <figure class="image is-128x128">
         <img class="is-rounded" src="/img/authors/marcus.jpg">
     </figure>
@@ -61,7 +57,7 @@ More information of the UWA System Health Lab can be found [here](https://system
 </article>
 
 <article class="media">
-  <figure class="media-left">
+  <figure class="media-left is-hidden-mobile">
     <figure class="image is-128x128">
         <img class="is-rounded" src="/img/authors/frinze.jpg">
     </figure>
@@ -78,7 +74,7 @@ More information of the UWA System Health Lab can be found [here](https://system
 </article>
 
 <article class="media">
-  <figure class="media-left">
+  <figure class="media-left is-hidden-mobile">
     <figure class="image is-128x128">
         <img class="is-rounded" src="/img/authors/melinda.jpg">
     </figure>
