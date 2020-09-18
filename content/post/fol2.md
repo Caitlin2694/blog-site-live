@@ -5,7 +5,7 @@ linktitle: An Introduction to First Order Logic (for Engineers)
 title: An Introduction to First Order Logic (for Engineers)
 tags: [ "ontology", "first-order logic", "engineering" ] 
 weight: 30
-draft: true
+draft: false
 markup: mmark
 ---
 
