@@ -5,7 +5,7 @@ linktitle: An Introduction to First Order Logic (for Engineers)
 title: An Introduction to First Order Logic (for Engineers)
 tags: [ "ontology", "first-order logic", "engineering" ] 
 weight: 30
-draft: true
+draft: false
 markup: mmark
 ---
 
@@ -199,5 +199,5 @@ Another useful concept, often introduced with truth tables is the idea of validi
 
 In a future post, we will explore FOL quantifiers in greater depth. 
 
-For any questions or comments please contact [Marcus Handley](https://www.linkedin.com/in/marcus-handley-a2a6b1179/), marcus.w.handley@gmail.com or [Caitlin Woods](https://www.linkedin.com/in/caitlin-woods/), caitlin.woods@research.uwa.edu.au.  Written by [Marcus Handley](https://www.linkedin.com/in/marcus-handley-a2a6b1179/), edited by [Caitlin Woods](https://www.linkedin.com/in/caitlin-woods/), [Emily Low](https://www.linkedin.com/in/emily-low-1501/), [Frinze Lapuz](https://www.linkedin.com/in/frinze-erin-lapuz/) and  [Melinda Hodkiewicz](https://www.linkedin.com/in/melinda-hodkiewicz-b6bbba7/). We would like to acknowledge the helpful comments of [Tim French](https://www.linkedin.com/in/tim-french-3881208/)
+For any questions or comments please contact [Marcus Handley](https://www.linkedin.com/in/marcus-handley-a2a6b1179/), marcus.w.handley@gmail.com or [Caitlin Woods](https://www.linkedin.com/in/caitlin-woods/), caitlin.woods@research.uwa.edu.au.  Written by [Marcus Handley](https://www.linkedin.com/in/marcus-handley-a2a6b1179/), edited by [Caitlin Woods](https://www.linkedin.com/in/caitlin-woods/), [Emily Low](https://www.linkedin.com/in/emily-low-1501/), [Frinze Lapuz](https://www.linkedin.com/in/frinze-erin-lapuz/) and  [Melinda Hodkiewicz](https://www.linkedin.com/in/melinda-hodkiewicz-b6bbba7/). We would also like to acknowledge the helpful comments of [Tim French](https://www.linkedin.com/in/tim-french-3881208/).
 
