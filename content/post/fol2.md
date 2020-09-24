@@ -6,7 +6,7 @@ title: An Introduction to First Order Logic (for Engineers)
 tags: [ "ontology", "first-order logic", "engineering" ] 
 weight: 30
 markup: mmark
-draft: true
+draft: false
 ---
 
 This is our first blog on the technical aspects of ontologies for engineers. We have taken inspiration from many sources and have created examples relevant to an engineering/maintenance context.
@@ -43,7 +43,7 @@ In these FOL statements, $$mechanicalSystem$$, $$functionalObject$$ and $$object
 
 It's worth examining a couple of terms used above. The use of the term **"argument"** in the last sentence may be ambiguous. In this context, an argument is an entity which a predicate "takes" or "describes". Its meaning is synonymous with function parameters in computer science.
 
-We take **"entity"** to mean the same thing it does in everyday speech --- an object/thing/idea. [TO DISCUSS]  When we are making a statement about particular entities and not employing quantifiers, the symbols we use to discuss entities are **constants**. However, if we are using quantifiers to make statements about all entities as a whole, the symbols used are **variables**.
+We take **"entity"** to mean the same thing it does in everyday speech --- an object/thing/idea.  When we are making a statement about particular entities and not employing quantifiers, the symbols we use to discuss entities are **constants**. However, if we are using quantifiers to make statements about all entities as a whole, the symbols used are **variables**.
 
 ### Relationships between entities
 
