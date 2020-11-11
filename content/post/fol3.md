@@ -1,5 +1,5 @@
 ---
-date: 2020-09-18
+date: 2020-11-11
 archives: "2020"
 linktitle: Quantifiers in-depth (for Engineers)
 title: Quantifiers in-depth (for Engineers)
