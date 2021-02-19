@@ -9,7 +9,7 @@ draft: false
 ---
 
 # Description Logics
-## Why not First Order Logic(FOL)?
+## Why not First Order Logic (FOL)?
 FOL, which we [explained previously](/post/2020/fol3/), is a knowledge representation language which can be used to express a variety of ideas. Expressivity is a measure of the modelling power of a knowledge representation language. 
 
 The expressivity of FOL is a double-edged sword.
@@ -17,8 +17,6 @@ The expressivity of FOL is a double-edged sword.
 When trying to determine whether particular statements are true, more expressive knowledge representation languages require greater computational resources. FOL is *undecidable*, meaning that reasoning programs can't be written that are guaranteed to produce correct results without the possibility that they will never terminate (i.e. be stuck running _ad infinitum_). 
 
 To move towards a knowledge representation language that has more desirable properties for computation, we introduce **Description Logic** (DL).
-
-# Description Logic
 
 ## DL vs FOL
 DL has many parallels to FOL (the terminology used below is explained in [our earlier blog](post/2020/fol2)):
