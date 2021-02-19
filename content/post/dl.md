@@ -21,21 +21,21 @@ To move towards a knowledge representation language that has more desirable prop
 ## DL vs FOL
 DL has many parallels to FOL (the terminology used below is explained in [our earlier blog](/2020/fol2)):
 
-    - Where FOL has contraints/variables, DL has *individuals*.
-    - Where FOL has unary predicates (taking one argument), DL has *concepts*.
-    - Where FOL has binary predicates (taking two arguments), DL has *roles*.
+- Where FOL has contraints/variables, DL has *individuals*.
+- Where FOL has unary predicates (taking one argument), DL has *concepts*.
+- Where FOL has binary predicates (taking two arguments), DL has *roles*.
  
 DL also has notable differences to FOL:
 
-    - While FOL can have predicates of any arity (number of arguments), DL only has *concepts* to describe a single argument fitting a concept, and *roles* to describe one argument fulfilling a role to another.
-    - While FOL works with a small, flexible set of **logical symbols**, DL has a larger set of symbols with more restricted uses.
-    - There aren't particular types of FOL while DLs form a family of knowledge representation logics each with different functionality.
-    - In FOL any collection of "valid" statements is "allowed" while each DL has a specific set of restrictions, some of which don't apply to individual statements but combinations of multiple statements.
-    - DLs are usually decidable (while FOL is only semidecidable).
-    - In DL there is a custom (but not rule) of separating axioms into three separate "Boxes":
-        * The Assertional Box (ABox) axioms capture knowledge about named individuals.
-        * The Terminological Box (TBox) axioms capture knowledge about concepts and their relationship to one another.
-        * The Relational Box (RBox) axioms capture knowledge about roles and their relationship to one another.
+- While FOL can have predicates of any arity (number of arguments), DL only has *concepts* to describe a single argument fitting a concept, and *roles* to describe one argument fulfilling a role to another.
+- While FOL works with a small, flexible set of **logical symbols**, DL has a larger set of symbols with more restricted uses.
+- There aren't particular types of FOL while DLs form a family of knowledge representation logics each with different functionality.
+- In FOL any collection of "valid" statements is "allowed" while each DL has a specific set of restrictions, some of which don't apply to individual statements but combinations of multiple statements.
+- DLs are usually decidable (while FOL is only semidecidable).
+- In DL there is a custom (but not rule) of separating axioms into three separate "Boxes":
+    * The Assertional Box (ABox) axioms capture knowledge about named individuals.
+    * The Terminological Box (TBox) axioms capture knowledge about concepts and their relationship to one another.
+    * The Relational Box (RBox) axioms capture knowledge about roles and their relationship to one another.
 
 It may at first seem contradictory that while DLs are less expressive than FOL, they employ more symbols. While the common symbols of FOL are $$\forall \exists \land \lor \longrightarrow \longleftrightarrow () \equiv$$, those used in DLs include $$\forall \exists \sqcap \sqcup \circ  \top \bot $$ $$ U \lnot \sqsubseteq = {\dot = } : \leq \geq \{\}  () $$ $$  ^- \equiv \approx \not \approx Self $$ $$  Trans $$ $$  Disjoint$$ . 
 
@@ -56,7 +56,7 @@ As a DL gains more class expressions and axioms, the set of scenarios the DL cou
 Each DL has its expressivity described in its name, normally a collection of letters with each corresponding to a particular set of functionality. Common DLs include:
  - $$\mathcal{SROIQ}$$, one of the most powerful DLs and the basis of OWL 2 DL and OWL 1.1. OWL is explained in a future blog.
  - $$\mathcal{EL^{++}}$$ a subset of $$\mathcal{SROIQ}$$ which is the basis of OWL 2 EL and is particularly optimised for ontologies with large numbers of concepts. The $$\mathcal{E}$$ comes from it allowing existential quantification but not universal quantification.
- - $$\mathcal{DLP}$$ the intersection of both DLs ($$\mathcal{DL}$$), as previously outlined and Logic Program($$\mathcal{LP}$$), a language designed to capture rules including spatial and temporal information. $$\mathcal{DLP}$$ is the basis of OWL 2 RL and a subset of $$\mathcal{SROIQ}$$.
+ - $$\mathcal{DLP}$$ the intersection of DLs and [Logic Programming](http://www.doc.ic.ac.uk/~cclw05/topics1/index.html). $$\mathcal{DLP}$$ is designed to capture rules including spatial and temporal information. $$\mathcal{DLP}$$ is the basis of OWL 2 RL and a subset of $$\mathcal{SROIQ}$$.
  - $$\mathcal{DL-Lite}$$ a DL designed for efficient evaluation of conjunctive queries (such as those created by JOIN in SQL) and evaluation of these queries by existing relational data systems. $$\mathcal{DL-Lite}$$ is the basis of OWL 2 QL and a subset of $$\mathcal{SROIQ}$$.
  - $$\mathcal{ALC}$$ a historically significant DL and the basis of any DL beginning with $$\mathcal{S}$$ or $$\mathcal{ALC}$$.
 
