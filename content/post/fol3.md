@@ -10,7 +10,7 @@ draft: false
 ---
 
 ## Introduction
-In [our prior post](/post/fol2) we discussed *First Order Logic (FOL)*, a useful language for knowledge representation.
+In [our prior post](/2020/fol2) we discussed *First Order Logic (FOL)*, a useful language for knowledge representation.
 
 For example, the following FOL statement expresses that that an electric motor is a type of motor: $$\forall x (ElectricMotor(x) \longrightarrow Motor(x))$$ In greater detail, this can be read as _for every possible x_ ($$\forall x$$) _x being an electric motor_ ($$ElectricMotor(x)$$) _implies_ ($$\longrightarrow$$) _x is a motor_ ($$Motor(x)$$). In this statement, $$ElectricMotor$$ and $$Motor$$ are **predicates**, $$x$$ is a **variable** and both $$\forall$$ and $$\longrightarrow$$ are **logical symbols**.
 

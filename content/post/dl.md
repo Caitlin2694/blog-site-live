@@ -10,7 +10,7 @@ draft: false
 
 # Description Logics
 ## Why not First Order Logic (FOL)?
-FOL, which we [explained previously](/post/2020/fol3/), is a knowledge representation language which can be used to express a variety of ideas. Expressivity is a measure of the modelling power of a knowledge representation language. 
+FOL, which we [explained previously](/2020/fol3/), is a knowledge representation language which can be used to express a variety of ideas. Expressivity is a measure of the modelling power of a knowledge representation language. 
 
 The expressivity of FOL is a double-edged sword.
 
@@ -19,7 +19,7 @@ When trying to determine whether particular statements are true, more expressive
 To move towards a knowledge representation language that has more desirable properties for computation, we introduce **Description Logic** (DL).
 
 ## DL vs FOL
-DL has many parallels to FOL (the terminology used below is explained in [our earlier blog](post/2020/fol2)):
+DL has many parallels to FOL (the terminology used below is explained in [our earlier blog](/2020/fol2)):
 
     - Where FOL has contraints/variables, DL has *individuals*.
     - Where FOL has unary predicates (taking one argument), DL has *concepts*.
@@ -81,8 +81,8 @@ The second DL statement can be read as the individuals  which are a member of th
 
 Concepts are a building block of **axioms**. Axioms are how DLs represent knowledge. Different DLs allow different axioms. $$\mathcal{ALC}$$ allows the following axioms:
  - $${A \sqsubseteq B}$$ is called **concept inclusion**. It states that all members(individuals) of the concept $$A$$ are members of  the concept $$B$$.
- - $${a : B}$$ is called **concept assertion** and asserts that an individual $$a$$ is a member of the concept $$B$$. Alternatively, the notation $${B(a)}$$ can be used. This is interpreted in the same way as a unary predicate is in FOL. Unary predicates are outlined [in our FOL Blog](post/2020/fol2)
- - $${(a,b): R}$$ is called **role assertion** and asserts that individual $$a$$ is related to individual $$b$$ by the role $$R$$. Alternatively, the notation $${B(a,b)}$$ can be used. This is interpreted in the same way as a binary predicate is in FOL. Binary predicates are outlined [in our FOL Blog](post/2020/fol2)
+ - $${a : B}$$ is called **concept assertion** and asserts that an individual $$a$$ is a member of the concept $$B$$. Alternatively, the notation $${B(a)}$$ can be used. This is interpreted in the same way as a unary predicate is in FOL. Unary predicates are outlined [in our FOL Blog](/2020/fol2)
+ - $${(a,b): R}$$ is called **role assertion** and asserts that individual $$a$$ is related to individual $$b$$ by the role $$R$$. Alternatively, the notation $${B(a,b)}$$ can be used. This is interpreted in the same way as a binary predicate is in FOL. Binary predicates are outlined [in our FOL Blog](/2020/fol2)
 
  At first glance, you might be impressed by the expressive power of $$\mathcal{ALC}$$ and wonder what more is needed. While $$\mathcal{ALC}$$ affords us a lot of concept expressiveness, it has few tools to express complex role relationships.
 
